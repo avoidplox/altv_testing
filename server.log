@@ -1,0 +1,18 @@
+[16:06:38] alt:V Server 6.4 (release)
+[16:06:38] Starting alt:V Server on 0.0.0.0:7788
+[16:06:38] Loading resource chat
+[16:06:38] Loaded resource chat
+[16:06:38] Loading resource freeroam
+[16:06:38] Loaded resource freeroam
+[16:06:38] Loading resource vehicle_spawner
+[16:06:38] Loaded resource vehicle_spawner
+[16:06:38] Required server permissions:
+[16:06:38] Optional server permissions:
+[16:06:38] Starting HTTP server on 0.0.0.0:7788
+[16:06:38] Main thread started (ThreadId: 25296)
+[16:06:38] Colshape thread started (ThreadId: 6304)
+[16:06:38] EntityStreamer thread started (ThreadId: 9012)
+[16:06:38] Network thread started (ThreadId: 25384)
+[16:06:38] Console thread started (ThreadId: 25388)
+[16:06:38] Server started
+[16:06:51] [chat:msg] Ryan_Alvarez: t
