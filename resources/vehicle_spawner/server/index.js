@@ -30,6 +30,11 @@ alt.onClient('vehicleMod', player => {
     }
 });
 
+alt.onClient('randomVehicleColor', player => {
+    player.vehicle.primaryColor = Math.floor(Math.random() * 255);
+    player.vehicle.secondaryColor = Math.floor(Math.random() * 255);
+});
+
 function spawnVehicle(player, vehicleModel){
     let veh;
     veh = new alt.Vehicle(vehicleModel, player.pos.x, player.pos.y + 8, player.pos.z, 0, 0, 0);
