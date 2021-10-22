@@ -16,11 +16,11 @@ const keys = {
 
 alt.on("keyup", (key) => {
   if(alt.gameControlsEnabled()){
-    if(key == keys['n']){
-      alt.emitServer('vehicleSpawn');
-    }
-    if(key == keys['m']){
-      alt.emitServer('vehicleMod');
+    switch(key){
+      case keys['n']:
+        alt.emitServer('vehicleSpawn');
+      case keys['m']:
+        alt.emitServer('vehicleMod');
     }
   }
 });
