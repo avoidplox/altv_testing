@@ -24,6 +24,7 @@ alt.onClient('vehicleMod', player => {
             if(player.vehicle.model == alt.hash(vehicle_model)){
                 for (let i = 0; i < vehicle_mods[vehicle_model].length; i++) {
                     player.vehicle.setMod(i, vehicle_mods[vehicle_model][i]); //Sets the mod kit
+                    player.vehicle.repair(); // repair vehicle
                 }
             }
         }
